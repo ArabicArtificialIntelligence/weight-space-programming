@@ -1,0 +1,80 @@
+{
+ "total_weights": 361821120,
+ "changed": 307200,
+ "pct": 0.08490383314274191,
+ "tensors": [
+  {
+   "tensor": "model.layers.17.self_attn.o_proj.weight",
+   "shape": [
+    960,
+    960
+   ],
+   "changed": 61440,
+   "pct_of_tensor": 6.666666666666667,
+   "rel_change": 0.10703321546316147,
+   "max_abs_change": 0.462890625,
+   "mean_before": 0.0929928570985794,
+   "mean_after": 0.0464964285492897,
+   "rows_touched": 960,
+   "cols_touched": 64,
+   "heads": [
+    8
+   ]
+  },
+  {
+   "tensor": "model.layers.18.self_attn.o_proj.weight",
+   "shape": [
+    960,
+    960
+   ],
+   "changed": 61440,
+   "pct_of_tensor": 6.666666666666667,
+   "rel_change": 0.10688578337430954,
+   "max_abs_change": 0.60546875,
+   "mean_before": 0.10180500149726868,
+   "mean_after": 0.05090250074863434,
+   "rows_touched": 960,
+   "cols_touched": 64,
+   "heads": [
+    11
+   ]
+  },
+  {
+   "tensor": "model.layers.20.self_attn.o_proj.weight",
+   "shape": [
+    960,
+    960
+   ],
+   "changed": 61440,
+   "pct_of_tensor": 6.666666666666667,
+   "rel_change": 0.10008270293474197,
+   "max_abs_change": 0.9453125,
+   "mean_before": 0.10014791041612625,
+   "mean_after": 0.050073955208063126,
+   "rows_touched": 960,
+   "cols_touched": 64,
+   "heads": [
+    8
+   ]
+  },
+  {
+   "tensor": "model.layers.24.self_attn.o_proj.weight",
+   "shape": [
+    960,
+    960
+   ],
+   "changed": 122880,
+   "pct_of_tensor": 13.333333333333334,
+   "rel_change": 0.16411003470420837,
+   "max_abs_change": 0.86328125,
+   "mean_before": 0.1259365975856781,
+   "mean_after": 0.06296829879283905,
+   "rows_touched": 960,
+   "cols_touched": 128,
+   "heads": [
+    1,
+    10
+   ]
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./heldout/**)",
+      "Read(./04_compare.py)",
+      "Read(./work/compare.json)"
+    ]
+  }
+}

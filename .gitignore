@@ -1,0 +1,8 @@
+# Downloaded and edited model weights (recreate with 01_download.py and 03_toolkit.py apply)
+models/
+# Per-run working files (budget ledger, probes, edits, reports)
+work/
+# Python
+.venv/
+__pycache__/
+*.pyc

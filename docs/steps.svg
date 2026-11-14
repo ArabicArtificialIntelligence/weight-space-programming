@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="470" viewBox="0 0 680 470" role="img" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Demo steps</title>
+  <desc>Five steps: download the model, show the bug live, Claude reads and edits the weights, run the fixed model live, show what changed.</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <g text-anchor="middle" dominant-baseline="central">
+    <rect x="140" y="30" width="400" height="56" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.75"/>
+    <text x="340" y="48" font-size="15" font-weight="600" fill="#2C2C2A">1 · Download the model</text>
+    <text x="340" y="68" font-size="13" fill="#5F5E5A">SmolLM2-360M from Hugging Face</text>
+
+    <rect x="140" y="116" width="400" height="56" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.75"/>
+    <text x="340" y="134" font-size="15" font-weight="600" fill="#4A1B0C">2 · Show the bug live</text>
+    <text x="340" y="154" font-size="13" fill="#993C1D">Original model answers live</text>
+
+    <rect x="140" y="202" width="400" height="56" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.75"/>
+    <text x="340" y="220" font-size="15" font-weight="600" fill="#26215C">3 · Claude reads the weights</text>
+    <text x="340" y="240" font-size="13" fill="#534AB7">Diagnoses, then edits weights</text>
+
+    <rect x="140" y="288" width="400" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.75"/>
+    <text x="340" y="306" font-size="15" font-weight="600" fill="#04342C">4 · Run the fixed model live</text>
+    <text x="340" y="326" font-size="13" fill="#0F6E56">Same and unseen prompts</text>
+
+    <rect x="140" y="374" width="400" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.75"/>
+    <text x="340" y="392" font-size="15" font-weight="600" fill="#04342C">5 · Show what changed</text>
+    <text x="340" y="412" font-size="13" fill="#0F6E56">Which weights, how many</text>
+  </g>
+  <g stroke="#888780" stroke-width="1.5" marker-end="url(#a)">
+    <line x1="340" y1="86" x2="340" y2="113"/>
+    <line x1="340" y1="172" x2="340" y2="199"/>
+    <line x1="340" y1="258" x2="340" y2="285"/>
+    <line x1="340" y1="344" x2="340" y2="371"/>
+  </g>
+</svg>
