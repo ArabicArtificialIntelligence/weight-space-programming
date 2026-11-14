@@ -1,3 +1,7 @@
+<a href="https://www.buymeacoffee.com/ArabicAI" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+**Watch the episode:** https://www.youtube.com/watch?v=TDAwv-KvtsE
+
 # Loop Repair
 
 **Fixing a language model by editing its weights, with no training.**
