@@ -151,3 +151,8 @@ docs/               Video script and diagram
   https://rikiyat.github.io/blog/weight-space-programming/
 - Model: [SmolLM2-360M-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct) by Hugging Face,
   Apache 2.0. The weights are downloaded at run time and are not included in this repository.
+
+## License
+
+The code in this repository is released under the [MIT License](LICENSE). The model weights it downloads are
+covered by their own license (Apache 2.0).
